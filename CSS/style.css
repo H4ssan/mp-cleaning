@@ -1,0 +1,618 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/ClarendonBT.ttf);
+}
+
+
+span{
+    color: orange;
+}
+
+.top-logo-mp-cleaning{
+width: 100%;
+
+}
+.header{
+    background-color: #343849;
+    text-align: right;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+.header p{
+    margin: 0;
+}
+
+.header i{
+    font-size: 25px;
+    margin-left: 2px;
+}
+
+.navbar-nav{
+    padding-top: 20px;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    color: white !important;
+}
+
+.navbar{
+    background-color: #343849;
+    padding-top: 0;
+}
+
+.navbar .navbar-brand{
+    width: 270px;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    float: right;
+    margin-left: 30px;
+}
+
+.navbar .dropdown .dropdown-menu{
+    background-color: #FA9A02;
+}
+
+.navbar .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: #343849;
+    color: #fff;
+}
+
+.navbar .dropdown .dropdown-menu .dropdown-item{
+    color: #fff;
+    font-size: 12px;
+}
+
+.navbar .dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.banner{
+    text-align: center;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.banner h1{
+    font-family: myFirstFont, sans-serif ;
+    
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.banner button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 0;
+    color: white;
+    background-color: orange;
+    margin-bottom: 13%;
+    width: 195px;
+    height: 55px;
+    padding: 0;
+
+
+}
+.phone-no{
+    color: orange;
+}
+
+.cleaning-services{
+    color: #ffffff;
+    text-align: center;
+    background-color: #343849;
+}
+
+.cleaning-services button{
+    height: 30px;
+    width: 128px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #343849;
+    padding: 0;
+}
+
+.cleaning-services h1{
+    margin-bottom: 28px;
+    margin-top: 35px;
+}
+
+.cleaning-services .sub-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 80px;
+    margin-top: 28px;
+}
+.cleaning-services img:nth-of-type(1){
+    margin-top: -7%;
+}
+
+.cleaning-service-card{
+    width: 100%;
+    align-items: center;
+    margin-bottom: 47px;
+}
+
+
+
+.cleaning-services .cleaning-service-card .card-info{
+    border: 2px solid #636363;
+    padding: 0%;
+    background-color: #343849;
+    padding-bottom: 12px;
+}
+
+.cleaning-services .cleaning-service-card .text{
+    padding: 10px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.type_of_cleaning{
+    background-image: url(../images/background2.png);
+    background-size: cover;
+    padding-bottom: 95px;
+}
+
+.type_of_cleaning h1{
+    margin-bottom: 60px;
+}
+
+
+.cleaning_card{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: transparent;
+    margin: 1.5%;
+}
+
+.cleaning_card .card-deck{
+    
+}
+
+.cleaning_card img{
+    margin-top: -15%;
+}
+
+.cleaning_card .btn{
+    color: #ffffff;
+    background-color: #343849;
+    height: 22px;
+    width: 95px;
+    font-size: 15px;
+    padding: 0;
+    border-radius: 20px;
+}
+  
+.can_we_help{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    width: 67%;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+
+.health_safety{
+    background-color: #343849;
+    color: #ffffff;
+}
+
+.health_safety .btn{
+    background-color: #ffffff;
+    color: #343849;
+    border-radius: 10px;
+    height: 35px;
+    width: 150px;
+}
+
+.covid-health-safety{
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    width: 530px;
+    margin-top: 65px;
+    margin-bottom: 75px;
+}
+
+.covid-health-safety h1{
+    padding-bottom: 45px;
+}
+.covid-health-safety img{
+    margin-bottom: 65px;
+    padding-top: 40px;
+}
+
+.covid-health-safety h1:nth-of-type(1){
+    width: 100%;
+}
+
+.health-safety-text{
+    margin-top: 60px;
+    margin-bottom: 75px;
+    width: 100%;
+}
+
+.health-safety-text p{
+    margin-bottom: 37px;
+    font-size: 15px;
+}
+
+.health-safety-text h1{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 33px;
+    width: 86%;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.money-back-guarantee{
+    background-image: url(../images/background3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 110px;
+}
+
+.money-back-guarantee p{
+    font-size: 20px;
+    width: 94%;
+    padding-left: 43%;
+    padding-top: 9%;
+    margin-top: -43%;
+    margin-left: -141px;
+    color: #343849;
+}
+
+.money-back-guarantee a{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.money-back-sticker{
+    margin-top: 110px;
+    margin-left: -2%;
+    padding-bottom: 110px;
+}
+
+.money-back-guarantee .btn{
+    font-size: 14px;
+    font-weight: bold;
+    width: 165px;
+    height: 33px;
+    background-color: #343849;
+}
+
+
+.blog{
+    background-color: #343849;
+}
+
+.blog h1{
+    margin-top: 70px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.blog .card-deck{
+    margin-bottom: 105px;
+}
+
+.blog .blog-card{
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    background: transparent;
+    margin: 1.5%;
+    color: #ffffff;
+}
+
+.blog .blog-card h5{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.blog .btn{
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #343849;
+    height: 30px;
+    width: 128px;
+    padding: 0;    
+}
+
+.blog .slider-navigation{
+    float: right;
+    margin-bottom: 20px;
+    margin-right: -20px;
+}
+
+.blog .slider-navigation:nth-of-type(1){
+    margin-left: 60px;
+}
+
+.footer{
+    background-color: #394577;
+}
+
+.footer .footer-logo{
+    margin-top: 55px;
+}
+
+.footer h3{
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+
+.footer p:nth-of-type(1){
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.footer p:nth-of-type(2), .footer p:nth-of-type(3){
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.footer ul{
+    padding-left: 0;
+}
+
+.footer li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer li{
+    padding-bottom: 35px;
+    list-style-type: none;
+}
+
+.footer ul{
+    padding-left: 0;
+}
+
+.social-img{
+    padding: 40px;
+}
+.social-img img{
+    margin-right: 2%;
+}
+
+
+@media only screen and (min-width: 250px) and (max-width: 600px)  {
+   .header p{
+    text-align: center;
+   }
+
+   .navbar-toggler{
+    float: right;
+    background-color: #ffffff;
+   }
+   
+    .banner h1{
+        font-size: 45px;
+        margin-bottom: -15px;
+    }
+
+    .banner button{
+        margin-bottom: 100px;
+    }
+
+    .cleaning-services img:nth-of-type(1) {
+        margin-top: -20%;
+    }
+
+    .cleaning-services .sub-title{
+        margin-bottom: 100px;
+        width: 100%;
+    }
+
+    .cleaning-services .cleaning-service-card .card-info {
+        margin-bottom: 120px;
+    }
+
+    .cleaning-services .cleaning-service-card #card-info4 {
+        margin-bottom: 0;
+    }
+
+    .can_we_help{
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .cleaning_card{
+        margin-bottom: 80px;
+    }
+
+    #cleaning_card3{
+        margin-bottom: 0;
+    }
+
+    .covid-health-safety {
+        width: 100%;
+        margin-bottom: -40px;
+    }
+
+    .health-safety-text{
+        text-align: center;
+    }
+
+    .health-safety-text h1 {
+        width: 100%;
+        font-size: 39px;
+    }
+
+    
+
+    .money-back-sticker{
+        width: 100%;
+    }
+
+    .money-back-guarantee p {
+        font-size: 7px;
+        width: 100%;
+        padding-top: 0;
+        margin-top: -62%;
+        margin-left: -10px;
+    }
+
+    .money-back-guarantee .btn {
+        font-size: 7px;
+        width: 80px;
+        height: 15px;
+        padding: 1px;
+    }
+
+    .blog .slider-navigation:nth-of-type(1) {
+        margin-left: 20px;
+    }
+
+    .blog .slider-navigation {
+        margin-right: -5px;
+    }
+
+    .blog .card-deck {
+        margin-bottom: 40px;
+    }
+
+    .footer .footer-logo{
+        width: 100%;
+    }
+
+    .footer .footer-list{
+        width: 50%;
+    }
+
+    .social-img{
+        text-align: center;
+    }
+
+    .contact-details-footer, .footer-gold-badge{
+        text-align: center;
+    }
+
+ }
+
+
+ /* ============ HEALTH AND SAFETY INNER PAGE ============ */
+ span{
+    color: #FA9A02;
+}
+
+.health-safety-main a:hover{
+    text-decoration: none !important;
+    color: #FA9A02 !important;
+}
+
+.sidebar a:hover{
+    text-decoration: none !important;
+    color: #FA9A02 !important;
+}
+
+
+.inner-page-banner{
+    padding: 50px 0px;
+    
+}
+
+.main-content{
+    background-color: #343849 ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sidebar{
+    font-family: 'Open Sans', sans-serif;
+    border-left: 1px solid white;
+    color: #d7d7d7;
+    padding: 20px 10px 5px 20px;
+}
+
+.sidebar hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.sidebar i, .sidebar h3, .sidebar a, .sidebar hr{
+    color: #FA9A02;
+    font-weight: bold;
+}
+
+.health-safety-main{
+    
+    font-family: 'Open Sans', sans-serif;
+    color: #d7d7d7;
+    padding: 20px;
+}
+
+.health-safety-main h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    width: 95%;
+    font-weight: bold;
+}
+
+.health-safety-main a{
+    color: #FA9A02;
+}  
+
+.health-safety-main img{
+    margin-bottom: 20px;
+    width: 87.3%;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 600px){
+    .sidebar{
+        border-left: none;
+        border-top: 1px solid white;
+    }
+
+    .navbar-light .navbar-toggler {
+        background-color: white ;
+    }
+}
+
+/* ============ END OF HEALTH AND SAFETY PAGE ============*/
+
+
+/* ============ BLOG INNER PAGE ============*/
+.blog-title{
+    font-family: myFirstFont, sans-serif;
+}
+
+.blog-main .blog{
+    border-bottom: 1px solid white;
+    padding: 20px;
+    
+}
+
+.blog-main .blog p{
+    color: white;
+    margin-top: 15px;
+}
+
+.blog-main .blog a, .blog-main .blog a:hover{
+    color: #FA9A02;
+    text-decoration: none;
+}
+
+/* ============ END OF BLOG INNER PAGE ============ */
+
